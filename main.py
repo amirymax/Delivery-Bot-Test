@@ -1,7 +1,5 @@
 import asyncio
 from aiogram import Bot, Dispatcher
-from aiogram.filters import Command
-from aiogram.types import Message
 
 from admin import admin_router
 from user import user_router
